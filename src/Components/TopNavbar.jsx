@@ -50,7 +50,7 @@ const TopNavbar = () => {
             </a>{" "}
           </div>
           <div onClick={() => setCurrent("#resume")}>
-            <a  target="blank" href="https://sonu25122000.github.io/Sonu_Kumar_Resume.pdf">
+            <a  href="https://onedrive.live.com/?authkey=%21AAdLQK8VH%5FysUEw&cid=8C56F2E1EF84D28C&id=8C56F2E1EF84D28C%21106&parId=root&o=OneUp" target="_blank" rel="noreferrer" download={true}>
               <h4 id="resumenav" className={current === "#resume" ? "activemain" : null}>
                 Resume
               </h4>                                                                       

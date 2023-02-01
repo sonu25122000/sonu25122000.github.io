@@ -72,8 +72,10 @@ const Home = () => {
         </h1>
 
         <a
-          target="blank"
-          href="https://sonu25122000.github.io/Sonu_Kumar_Resume.pdf"
+          href="https://onedrive.live.com/?authkey=%21AAdLQK8VH%5FysUEw&cid=8C56F2E1EF84D28C&id=8C56F2E1EF84D28C%21106&parId=root&o=OneUp"
+          target="_blank"
+          rel="noreferrer"
+          download={true}
         >
           <button
             id="resume"
@@ -104,4 +106,3 @@ const Home = () => {
   );
 };
 export default Home;
-
