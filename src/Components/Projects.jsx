@@ -269,7 +269,7 @@ const Projects = () => {
           data-aos-duration="2000"
           data-aos-offset="100"
           alt="status github, commits, etc..."
-          src="https://github-readme-streak-stats.herokuapp.com/?user=sonu25122000&count_private=true&show_icons=true&custom_title=Github&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=8"
+          src="https://github-readme-streak-stats.herokuapp.com/?user=sonu25122000&count_private=true&show_icons=true&custom_title=Github&theme=algolia&bg_color=red,130F40&layout=compact&border_radius=8"
         />
 
         <img
@@ -285,7 +285,7 @@ const Projects = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
           data-aos-offset="100"
-          alt="Hanumat Activity Graph"
+          alt="Sonu's Activity Graph"
           src="https://github-readme-activity-graph.cyclic.app/graph?username=sonu25122000&theme=react-dark&hide_border=false"
         />
       </div>
