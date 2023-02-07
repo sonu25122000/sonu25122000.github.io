@@ -39,8 +39,8 @@ const Projects = () => {
         { src: react, name: "React" },
         { src: chakra, name: "Chakra" },
       ],
-      live: `https://rent-do-maja-lo-hanumat-sharan.vercel.app/`,
-      github: `https://github.com/HANUMAT-SHARAN/filthy-range-8205`,
+      live: ``,
+      github: ``,
       dplink:
         "",
     },
@@ -75,8 +75,8 @@ const Projects = () => {
         { src: css, name: "CSS" },
         { src: js, name: "JavaScript" },
       ],
-      live: `https://dazzling-buttercream-31808d.netlify.app/index.html`,
-      github: `https://github.com/HANUMAT-SHARAN/wicked-edge-6587`,
+      live: ``,
+      github: ``,
       dplink:
         "",
     },
@@ -105,8 +105,8 @@ const Projects = () => {
         { src: css, name: "CSS" },
         { src: js, name: "JavaScript" },
       ],
-      live: `https://effulgent-cobbler-698112.netlify.app/`,
-      github: `https://github.com/HANUMAT-SHARAN/-main-insurance-1276`,
+      live: ``,
+      github: ``,
     },
   ];
   let dailyneeds = [
@@ -161,8 +161,8 @@ const Projects = () => {
         { src: html, name: "HTML" },
         { src: css, name: "CSS" },
       ],
-      live: `https://daily-needs-hanumat-sharan.vercel.app/`,
-      github: `https://github.com/HANUMAT-SHARAN/bright-noise-2667`,
+      live: ``,
+      github: ``,
       dplink:
         "",
     },
