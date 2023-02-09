@@ -235,7 +235,7 @@ const Projects = () => {
       >
         <GitHubCalendar
           fontSize={14}
-          color="#850db4"
+          color="#008001"
           blockRadius={1}
           blockMargin={6}
           blockSize={16}

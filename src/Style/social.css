@@ -1,25 +1,18 @@
 #link {
   display: flex;
   font-size: 2.5rem;
-
   margin-left: 2%;
-
   position: fixed;
-
   z-index: 2;
   color: var(--color-bg);
   justify-content: space-between;
-
   bottom: 5rem;
 }
 #git {
   display: flex;
   font-size: 2.5rem;
-
   margin-left: 96%;
-
   position: fixed;
-
   z-index: 2;
   color: var(--color-bg);
   justify-content: space-between;
@@ -39,12 +32,9 @@
   #social {
     display: none;
     align-items: center;
-
     position: fixed;
     font-size: 2.5rem;
-
     z-index: 2;
-
     bottom: 10rem;
     display: none;
   }
@@ -52,12 +42,9 @@
 @media all and (min-width: 320px) and (max-width: 635px) {
   #social {
     align-items: center;
-
     position: fixed;
     font-size: 2.5rem;
-
     z-index: 2;
-
     bottom: 10rem;
     display: none;
   }
