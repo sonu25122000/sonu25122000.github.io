@@ -194,7 +194,7 @@ const Projects = () => {
           data-aos-duration="2000"
          
           data-aos-anchor-placement="top-center"
-        >
+        > 
           <ProjectCard arr={dataarr} />
         </div>
         <div
