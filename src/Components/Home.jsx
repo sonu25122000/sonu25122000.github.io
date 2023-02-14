@@ -96,7 +96,7 @@ const Home = () => {
           </a>
           <a
             target="blank"
-            href="https://www.linkedin.com/in/hanumat-sharan-168548258/"
+            href="https://www.linkedin.com/in/sonu-kumar-a13235244/"
           >
             <i class="fa-brands fa-linkedin"></i>
           </a>
