@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import "../Style/home.css";
+import resume from "../Style/Sonu_Kumar_Resume.pdf";
+
 
 import { Typewriter } from "react-simple-typewriter";
 import my from "../Components/Images/sonu.jpg";
@@ -77,16 +79,18 @@ const Home = () => {
           rel="noreferrer"
           download={true}
         >
-          <button
-            id="resume"
-            style={{
-              borderRadius: "1rem",
-              color: "white",
-              padding: "15px 20px 15px 20px",
-            }}
-          >
-            Resume
-          </button>
+          <a href={resume} target="_blank" rel="noreferrer" download >
+            <button
+              id="resume"
+              style={{
+                borderRadius: "1rem",
+                color: "white",
+                padding: "15px 20px 15px 20px",
+              }}
+            >
+              Resume
+            </button>
+          </a>
         </a>
 
         <div id="homesocial">

@@ -1,7 +1,7 @@
 import "../Style/topNavbar.css";
 import React, { useState } from "react";
 import logo from "../Components/Images/logo.jpeg";
-import resume from "../Components/Images/Sonu_Kumar_Resume.pdf";
+import resume from "../Style/Sonu_Kumar_Resume.pdf";
 import NavDrawer from "./NavDrawer";
 
 const TopNavbar = () => {
@@ -78,7 +78,7 @@ const TopNavbar = () => {
           </div>
           <div onClick={() => setCurrent("#resume")}>
             {/* <a  href="https://onedrive.live.com/?authkey=%21AAdLQK8VH%5FysUEw&cid=8C56F2E1EF84D28C&id=8C56F2E1EF84D28C%21106&parId=root&o=OneUp" target="_blank" rel="noreferrer" download={true}> */}
-            <a href={resume} target="_blank" rel="noreferrer" download>
+            <a href={resume} target="_blank" rel="noreferrer">
               <h4
                 id="resumenav"
                 className={current === "#resume" ? "activemain" : null}
