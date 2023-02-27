@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.0485bfba.css",
-    "main.js": "/static/js/main.830e82eb.js",
+    "main.js": "/static/js/main.4e63e47d.js",
     "static/js/787.18271493.chunk.js": "/static/js/787.18271493.chunk.js",
+    "static/media/Sonu_Kumar_Resume.pdf": "/static/media/Sonu_Kumar_Resume.514fb1473d7a0ac663d2.pdf",
     "static/media/sonu.jpg": "/static/media/sonu.068d9022d07df59b7a3b.jpg",
     "static/media/vscode.png": "/static/media/vscode.9bc6e588b5f2b867a8a4.png",
     "static/media/logo.jpeg": "/static/media/logo.82bc2e16373adfc6a737.jpeg",
@@ -23,11 +24,11 @@
     "static/media/mongodb-seeklogo.com.svg": "/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg",
     "static/media/npm.876.svg": "/static/media/npm.876.87689eab730642c86d2b01f3ef4a19e3.svg",
     "main.0485bfba.css.map": "/static/css/main.0485bfba.css.map",
-    "main.830e82eb.js.map": "/static/js/main.830e82eb.js.map",
+    "main.4e63e47d.js.map": "/static/js/main.4e63e47d.js.map",
     "787.18271493.chunk.js.map": "/static/js/787.18271493.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0485bfba.css",
-    "static/js/main.830e82eb.js"
+    "static/js/main.4e63e47d.js"
   ]
 }
