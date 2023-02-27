@@ -2,10 +2,6 @@ import React, { useEffect } from "react";
 import Carousel from "nuka-carousel/lib/carousel";
 import "../Style/card.css";
 import Aos from "aos";
-// import html from "../Components/Images/Html.png";
-// import css from "../Components/Images/Css.png";
-// import react from "../Components/Images/react.png";
-// import js from "../Components/Images/js.png";
 const ProjectCard = ({ arr }) => {
   let defaultControlsConfig = {
     nextButtonText: "nextf",
@@ -16,13 +12,7 @@ const ProjectCard = ({ arr }) => {
     pagingDotsClassName: "con",
     speed: 20,
   };
-  // var settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1
-  // };
+
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
@@ -40,7 +30,6 @@ const ProjectCard = ({ arr }) => {
           >
             {el.imgarr.map((el) => (
               <div id="webimg">
-              
                 <img style={{ borderRadius: "1rem" }} src={el.img} alt="" />
               </div>
             ))}
@@ -57,11 +46,6 @@ const ProjectCard = ({ arr }) => {
             </div>
             <div id="techstack">
               <h2>
-                {/* {" "}
-                <span style={{ color: "var(--color-bg)" }}>
-                  Tech Stack{" ->"}
-                </span>{" "}
-                {el.techstack} */}
                 <div id="tsres">
                   {el.techstack.map((el) => (
                     <div>
@@ -86,9 +70,11 @@ const ProjectCard = ({ arr }) => {
                   {"   "}
                 </button>
               </a>
-              <a target={"blank"} href={el.dplink}><button>
-                <i class="fa-solid fa-video"></i>
-              </button></a>
+              <a target={"blank"} href={el.dplink}>
+                <button>
+                  <i class="fa-solid fa-video"></i>
+                </button>
+              </a>
             </div>
           </div>
         </div>

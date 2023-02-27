@@ -8,105 +8,112 @@ import react from "../Components/Images/react.png";
 import js from "../Components/Images/js.png";
 import chakra from "../Components/Images/chakra.png";
 import typescript from "../Components/Images/typescript.png";
+import node from "../Components/Images/nodejs.png";
+import express from "../Components/Images/express.png";
+import mongo from "../Components/Images/mongodb-seeklogo.com.svg";
 const Projects = () => {
-  let dataarr = [
+  let Buffer = [
     {
       imgarr: [
         {
-          img: "https://i.postimg.cc/wj5CMv94/Screenshot-from-2023-01-10-01-42-55.png",
+          img: "https://i.postimg.cc/fy9nzNnn/Screenshot-2023-02-27-at-9-55-06-PM.png",
         },
         {
-          img: "https://i.postimg.cc/c1C5kkD7/Screenshot-from-2023-01-12-02-10-04.png",
+          img: "https://i.postimg.cc/ZnwWPpsx/Screenshot-2023-02-27-at-9-44-46-PM.png",
         },
         {
-          img: "https://i.postimg.cc/CKv9d3P1/Screenshot-from-2023-01-12-02-10-36.png",
+          img: "https://i.postimg.cc/y8ZNxMKP/Screenshot-2023-02-27-at-9-44-58-PM.png",
         },
         {
-          img: "https://i.postimg.cc/QxbmXpnN/Screenshot-from-2023-01-12-02-12-41.png",
-        },
-        {
-          img: "https://i.postimg.cc/BvWXkzcj/Screenshot-from-2023-01-12-02-11-10.png",
+          img: "https://i.postimg.cc/wvqzHPF0/Screenshot-2023-02-27-at-9-45-32-PM.png",
         },
       ],
-      des: `RentoMojo is rental platform where a person can use the products
-      according to there needs by paying rent for the products on monthly
-      Subscription based model`,
-      title: "RentoMojo",
+      des: `Buffer is a social
+       media management platform for small to
+        midsize businesses that helps users publish
+         content, engage clients and analyze their
+          social media performance.`,
+      title: "Buffer",
+      techstack: [
+        { src: html, name: "HTML" },
+        { src: css, name: "CSS" },
+        { src: js, name: "JavaScript" },
+      ],
+      live: `https://jade-biscotti-64239c.netlify.app/`,
+      github: `https://github.com/sonu25122000/nondescript-trip-7233`,
+      dplink: "",
+    },
+  ];
+  let OLX = [
+    {
+      imgarr: [
+        {
+          img: "https://i.postimg.cc/XvfcfyVr/Screenshot-2023-02-27-at-9-34-04-PM.png",
+        },
+        {
+          img: "https://i.postimg.cc/QVZdJVNM/Screenshot-2023-02-27-at-9-35-04-PM.png",
+        },
+        {
+          img: "https://i.postimg.cc/CxK7k45d/Screenshot-2023-02-27-at-9-53-00-PM.png",
+        },
+      ],
+      des: `
+      OLX is the perfect online marketplace to buy and sell locally! No need to visit the flea market to find the best deals on pre-owned items! Here you’ll find a wide selection of like new products.`,
+      title: "OLX",
       techstack: [
         { src: html, name: "HTML" },
         { src: css, name: "CSS" },
         { src: js, name: "JavaScript" },
         { src: react, name: "React" },
-        { src: chakra, name: "Chakra" },
       ],
-      live: ``,
-      github: ``,
-      dplink:
-        "",
+      live: `https://fantastic-seahorse-4fa219.netlify.app/`,
+      github: `https://github.com/sonu25122000/legal-houses-5460`,
+      dplink: "",
     },
   ];
-  let grow = [
+
+  let Wrike = [
     {
       imgarr: [
         {
-          img: "https://i.postimg.cc/bNYqdstT/Screenshot-from-2023-01-12-02-50-09.png",
+          img: "https://i.postimg.cc/XYDxnD34/Screenshot-2023-02-27-at-10-23-29-PM.png",
         },
         {
-          img: "https://i.postimg.cc/P59H6yF3/Screenshot-from-2023-01-12-02-50-36.png",
+          img: "https://i.postimg.cc/htw8kzbG/Screenshot-2023-02-27-at-10-23-46-PM.png",
         },
         {
-          img: "https://i.postimg.cc/nhQgLJ02/Screenshot-from-2023-01-12-02-51-57.png",
+          img: "https://i.postimg.cc/26C1MrJ6/Screenshot-2023-02-27-at-10-23-38-PM.png",
         },
         {
-          img: "https://i.postimg.cc/zBqcpR52/Screenshot-from-2023-01-12-02-53-13.png",
+          img: "https://i.postimg.cc/L8N45L0H/Screenshot-2023-02-27-at-10-25-11-PM.png",
         },
         {
-          img: "https://i.postimg.cc/kGLrjXTV/Screenshot-from-2023-01-12-03-00-47.png",
+          img: "https://i.postimg.cc/ZKmJLVGb/Screenshot-2023-02-27-at-10-25-19-PM.png",
         },
         {
-          img: "https://i.postimg.cc/02zHtvRv/Screenshot-from-2023-01-12-02-53-22.png",
+          img: "https://i.postimg.cc/HkhGF2h7/Screenshot-2023-02-27-at-10-25-37-PM.png",
+        },
+        {
+          img: "https://i.postimg.cc/rs8YD0Hk/Screenshot-2023-02-27-at-10-25-56-PM.png",
+        },
+        {
+          img: "https://i.postimg.cc/25Qwnjh8/Screenshot-2023-02-27-at-10-26-40-PM.png",
+        },
+        {
+          img: "https://i.postimg.cc/N0DXgKRT/Screenshot-2023-02-27-at-10-26-52-PM.png",
         },
       ],
       des: `
-      Chargebee is the subscription billing and revenue management platform that lets you solve for your today, and scale for your tomorrow`,
-      title: "ChargeBee",
+      Wrike is a work management platform that helps business teams collaborate, plan projects, organize team member tasks and track project completion.`,
+      title: "Wrike Rider",
       techstack: [
         { src: html, name: "HTML" },
         { src: css, name: "CSS" },
         { src: js, name: "JavaScript" },
       ],
-      live: ``,
-      github: ``,
-      dplink:
-        "",
-    },
-  ];
-  let optimizely = [
-    {
-      imgarr: [
-        {
-          img: "https://i.postimg.cc/fyWzmLJY/Screenshot-from-2023-01-12-03-07-22.png",
-        },
-        {
-          img: "https://i.postimg.cc/J08ygMth/Screenshot-from-2023-01-12-03-07-00.png",
-        },
-        {
-          img: "https://i.postimg.cc/t4pKgfnV/Screenshot-from-2023-01-12-03-08-26.png",
-        },
-        {
-          img: "https://i.postimg.cc/JnDggCvS/Screenshot-from-2023-01-12-03-07-51.png",
-        },
-      ],
-      des: `
-      Optimizely is the website which helps the small companies to grow thier business exponentially by doing digital Marketing across diffrent platforms to reach more audience`,
-      title: "Optimizely",
-      techstack: [
-        { src: html, name: "HTML" },
-        { src: css, name: "CSS" },
-        { src: js, name: "JavaScript" },
-      ],
-      live: ``,
-      github: ``,
+      live: `https://glowing-bavarois-8587cc.netlify.app/`,
+      github: `https://github.com/Abhinav-Mourya/puzzled-apparatus-1796`,
+      dplink: "",
     },
   ];
   let dailyneeds = [
@@ -142,7 +149,7 @@ const Projects = () => {
           img: "https://i.postimg.cc/gj5NMzFZ/Screenshot-from-2023-01-30-20-56-16.png",
         },
         {
-          img:"https://i.postimg.cc/63fk1GYG/Screenshot-from-2023-01-30-20-50-23.png"
+          img: "https://i.postimg.cc/63fk1GYG/Screenshot-from-2023-01-30-20-50-23.png",
         },
         {
           img: "https://i.postimg.cc/yxWLXJ5K/Screenshot-from-2023-01-30-20-54-14.png",
@@ -163,8 +170,50 @@ const Projects = () => {
       ],
       live: ``,
       github: ``,
-      dplink:
-        "",
+      dplink: "",
+    },
+  ];
+
+  let Meesho = [
+    {
+      imgarr: [
+        {
+          img: "https://user-images.githubusercontent.com/103637119/221498640-67982356-65b3-4565-9fa2-015cea37cc3e.png",
+        },
+        {
+          img: "https://user-images.githubusercontent.com/103637119/221499018-db0faa80-1157-4830-b5e1-8f44ef12ede5.png",
+        },
+        {
+          img: "https://user-images.githubusercontent.com/103637119/221500585-98c4542d-da6b-4721-bcba-bfcf5b99cee0.png",
+        },
+        {
+          img: "https://user-images.githubusercontent.com/103637119/221500800-17aaeb78-e85c-416f-8b7a-709d37810388.png",
+        },
+        {
+          img: "https://user-images.githubusercontent.com/103637119/221501093-f206fa82-43b8-4e02-a186-8e6bdfc046e3.png",
+        },
+        {
+          img: "https://user-images.githubusercontent.com/103637119/221501555-be05cc0f-20fb-4828-94cc-95436895fbfb.png",
+        },
+        {
+          img: "https://user-images.githubusercontent.com/103637119/221501597-983a291c-2962-4fe8-9d61-ce8566ebffce.png",
+        },
+      ],
+      des: `
+     Meesho is an e-commerce website for ordering fashion products, clothing etc.`,
+      title: "Meesho",
+      techstack: [
+        { src: html, name: "HTML" },
+        { src: css, name: "CSS" },
+        { src: js, name: "JavaScript" },
+        { src: react, name: "React" },
+        { src: node, name: "NodeJs" },
+        { src: express, name: "ExpressJS" },
+        { src: mongo, name: "MongoDB" },
+      ],
+      live: `https://meesho-fascino.vercel.app/`,
+      github: `https://github.com/mhtbansal11/probable-hour-5744`,
+      dplink: "",
     },
   ];
 
@@ -184,34 +233,38 @@ const Projects = () => {
         <div
           data-aos="zoom-in-down"
           data-aos-duration="2000"
-          
           data-aos-anchor-placement="top-center"
         >
           <ProjectCard arr={dailyneeds} />
         </div>
+
         <div
           data-aos="zoom-in-down"
           data-aos-duration="2000"
-         
           data-aos-anchor-placement="top-center"
-        > 
-          <ProjectCard arr={dataarr} />
+        >
+          <ProjectCard arr={Meesho} />
         </div>
         <div
           data-aos="zoom-in-down"
           data-aos-duration="2000"
-        
           data-aos-anchor-placement="top-center"
         >
-          <ProjectCard arr={grow} />
+          <ProjectCard arr={Wrike} />
         </div>
         <div
           data-aos="zoom-in-down"
           data-aos-duration="2000"
-          
           data-aos-anchor-placement="top-center"
         >
-          <ProjectCard arr={optimizely} />
+          <ProjectCard arr={Buffer} />
+        </div>
+        <div
+          data-aos="zoom-in-down"
+          data-aos-duration="2000"
+          data-aos-anchor-placement="top-center"
+        >
+          <ProjectCard arr={OLX} />
         </div>
       </div>
       <div
