@@ -2,15 +2,21 @@ import React, { useEffect } from "react";
 import "../Style/home.css";
 import resume from "../Style/Sonu_Kumar_Resume.pdf";
 
-
 import { Typewriter } from "react-simple-typewriter";
 import my from "../Components/Images/sonu.jpg";
 import AOS from "aos";
+import { Tooltip } from "@chakra-ui/react";
 
 const Home = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+  const handleClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1JqQrSAanX_0p3-9z0OblKILz_usBwIT8/view?usp=share_link",
+      "_blank"
+    );
+  };
   return (
     <section id="home">
       <div
@@ -73,37 +79,52 @@ const Home = () => {
           />
         </h1>
 
-        <a
-          href="https://onedrive.live.com/?authkey=%21AAdLQK8VH%5FysUEw&cid=8C56F2E1EF84D28C&id=8C56F2E1EF84D28C%21106&parId=root&o=OneUp"
-          target="_blank"
-          rel="noreferrer"
-          download={true}
-        >
-          <a href={resume} target="_blank" rel="noreferrer" download >
-            <button
-              id="resume"
-              style={{
-                borderRadius: "1rem",
-                color: "white",
-                padding: "15px 20px 15px 20px",
-              }}
-            >
-              Resume
-            </button>
-          </a>
+        <a href={resume} target="_blank" rel="noreferrer" download>
+          <button
+            id="resume"
+            style={{
+              borderRadius: "1rem",
+              color: "white",
+              padding: "15px 20px 15px 20px",
+            }}
+            onClick={handleClick}
+          >
+            Resume
+          </button>
         </a>
 
         <div id="homesocial">
-          <a target="blank" href="https://github.com/sonu25122000">
-            {" "}
-            <i class="fa-brands fa-github"></i>
-          </a>
-          <a
-            target="blank"
-            href="https://www.linkedin.com/in/sonu-kumar-a13235244/"
+          <Tooltip
+            label="Github"
+            placement="bottom"
+            borderRadius={"8px 10px "}
+            padding={"10px"}
+            color={"white"}
+            bg="gray"
+            fontSize="18px"
           >
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
+            <a target="blank" href="https://github.com/sonu25122000">
+              {" "}
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </Tooltip>
+
+          <Tooltip
+            label="Linkedin"
+            placement="bottom"
+            borderRadius={"8px 10px "}
+            padding={"10px"}
+            color={"white"}
+            bg="gray"
+            fontSize="18px"
+          >
+            <a
+              target="blank"
+              href="https://www.linkedin.com/in/sonu-kumar-a13235244/"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </Tooltip>
         </div>
       </div>
     </section>

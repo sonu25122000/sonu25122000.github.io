@@ -6,6 +6,12 @@ import NavDrawer from "./NavDrawer";
 
 const TopNavbar = () => {
   const [current, setCurrent] = useState("#home");
+  const handleClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1JqQrSAanX_0p3-9z0OblKILz_usBwIT8/view?usp=share_link",
+      "_blank"
+    );
+  };
   return (
     <div>
       <div style={{ height: "10vh" }} id="topnav">
@@ -77,11 +83,12 @@ const TopNavbar = () => {
             </a>{" "}
           </div>
           <div onClick={() => setCurrent("#resume")}>
-            {/* <a  href="https://onedrive.live.com/?authkey=%21AAdLQK8VH%5FysUEw&cid=8C56F2E1EF84D28C&id=8C56F2E1EF84D28C%21106&parId=root&o=OneUp" target="_blank" rel="noreferrer" download={true}> */}
-            <a href={resume} target="_blank" rel="noreferrer">
+
+            <a href={resume} target="_blank" rel="noreferrer" download>
               <h4
                 id="resumenav"
                 className={current === "#resume" ? "activemain" : null}
+                onClick={handleClick}
               >
                 Resume
               </h4>
