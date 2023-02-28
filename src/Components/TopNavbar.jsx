@@ -1,6 +1,5 @@
 import "../Style/topNavbar.css";
 import React, { useState } from "react";
-import logo from "../Components/Images/logo.jpeg";
 import NavDrawer from "./NavDrawer";
 
 const TopNavbar = () => {
@@ -16,7 +15,7 @@ const TopNavbar = () => {
       <div style={{ height: "10vh" }} id="topnav">
         <a href="https://sonu25122000.github.io/">
           <div style={{ marginLeft: "40px", align: "center", padding: "4px" }}>
-            <img width={"70px"} src={logo} alt="logo" />
+            <img width={"150px"} src={"https://i.postimg.cc/G26gY9N8/Circle-Round-Minimal-Initials-Photography-Logo-Video-1.png"} alt="logo" />
           </div>
         </a>
         <div id="navel">
