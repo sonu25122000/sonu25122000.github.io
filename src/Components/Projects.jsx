@@ -168,8 +168,8 @@ const Projects = () => {
         { src: html, name: "HTML" },
         { src: css, name: "CSS" },
       ],
-      live: ``,
-      github: ``,
+      live: ` https://daily-needs-hanumat-sharan.vercel.app/`,
+      github: `https://github.com/HANUMAT-SHARAN/Daily-Needs`,
       dplink: "",
     },
   ];
