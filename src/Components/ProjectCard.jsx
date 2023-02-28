@@ -70,11 +70,11 @@ const ProjectCard = ({ arr }) => {
                   {"   "}
                 </button>
               </a>
-              <a target={"blank"} href={el.dplink}>
+              {/* <a target={"blank"} href={el.dplink}>
                 <button>
                   <i class="fa-solid fa-video"></i>
                 </button>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
