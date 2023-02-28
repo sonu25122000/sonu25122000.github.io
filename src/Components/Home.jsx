@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "../Style/home.css";
-import resume from "../Style/Sonu_Kumar_Resume.pdf";
 
 import { Typewriter } from "react-simple-typewriter";
 import my from "../Components/Images/sonu.png";
@@ -79,7 +78,7 @@ const Home = () => {
           />
         </h1>
 
-        <a href={resume} target="_blank" rel="noreferrer" download>
+        <a href="./fw21_1204-Sonu_Kumar_Resume.pdf" target="_blank" rel="noreferrer" download>
           <button
             id="resume"
             style={{

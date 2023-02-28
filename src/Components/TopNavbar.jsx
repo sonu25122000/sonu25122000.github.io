@@ -1,7 +1,6 @@
 import "../Style/topNavbar.css";
 import React, { useState } from "react";
 import logo from "../Components/Images/logo.jpeg";
-import resume from "../Style/Sonu_Kumar_Resume.pdf";
 import NavDrawer from "./NavDrawer";
 
 const TopNavbar = () => {
@@ -84,7 +83,7 @@ const TopNavbar = () => {
           </div>
           <div onClick={() => setCurrent("#resume")}>
 
-            <a href={resume} target="_blank" rel="noreferrer" download>
+            <a href="./fw21_1204-Sonu_Kumar_Resume.pdf" target="_blank" rel="noreferrer" download>
               <h4
                 id="resumenav"
                 className={current === "#resume" ? "activemain" : null}

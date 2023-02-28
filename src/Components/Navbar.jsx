@@ -1,7 +1,6 @@
 import React from "react";
 import { Image, Tooltip } from "@chakra-ui/react";
 import "../Components/nav.css";
-import resume from "../Style/Sonu_Kumar_Resume.pdf";
 
 const Navbar = () => {
   const [activenav, setActiveNav] = React.useState("#home");
@@ -136,7 +135,7 @@ const Navbar = () => {
         fontSize="18px"
       >
         <a
-          href={resume}
+          href="./fw21_1204-Sonu_Kumar_Resume.pdf"
           target="_blank"
           rel="noreferrer"
           download
