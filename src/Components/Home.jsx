@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "../Style/home.css";
 
 import { Typewriter } from "react-simple-typewriter";
-import my from "../Components/Images/sonu.png";
+// import my from "../Components/Images/sonu.png";
 import AOS from "aos";
 import { Tooltip } from "@chakra-ui/react";
 
@@ -26,7 +26,7 @@ const Home = () => {
         id="profile"
       >
         {/* image */}
-        <img src={my} alt="" />
+        <img src={"https://sonu25122000.github.io/static/media/sonu.d7b426ad314db61e11a9.png"} alt="" />
       </div>
       <div
         data-aos="fade-down-right"
