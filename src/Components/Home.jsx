@@ -26,7 +26,7 @@ const Home = () => {
         id="profile"
       >
         {/* image */}
-        <img src={"https://sonu25122000.github.io/static/media/sonu.d7b426ad314db61e11a9.png"} alt="" />
+        <img src={"https://i.postimg.cc/gkHRF763/sonu.png"} alt="" />
       </div>
       <div
         data-aos="fade-down-right"
