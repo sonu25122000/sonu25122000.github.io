@@ -140,16 +140,13 @@ const Projects = () => {
           img: "https://i.postimg.cc/9XN8XpRQ/Screenshot-from-2023-01-30-20-56-53.png",
         },
         {
-          img: "https://i.postimg.cc/NjXPzH0f/Screenshot-from-2023-01-30-20-54-33.png",
-        },
-        {
           img: "https://i.postimg.cc/HshfKm43/Screenshot-from-2023-01-30-20-52-23.png",
         },
         {
           img: "https://i.postimg.cc/gj5NMzFZ/Screenshot-from-2023-01-30-20-56-16.png",
         },
         {
-          img: "https://i.postimg.cc/63fk1GYG/Screenshot-from-2023-01-30-20-50-23.png",
+          img: "https://i.postimg.cc/BZpLxQpv/Screenshot-2023-04-09-at-4-58-29-PM.png",
         },
         {
           img: "https://i.postimg.cc/yxWLXJ5K/Screenshot-from-2023-01-30-20-54-14.png",
