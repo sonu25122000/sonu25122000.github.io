@@ -78,7 +78,7 @@ const Home = () => {
           />
         </h1>
 
-        <a href="./fw21_1204-Sonu_Kumar_Resume.pdf" target="_blank" rel="noreferrer" download>
+        <a href="./Sonu_Kumar_Resume .pdf" target="_blank" rel="noreferrer" download>
           <button
             id="resume"
             style={{

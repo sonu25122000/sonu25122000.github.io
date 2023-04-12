@@ -135,7 +135,7 @@ const Navbar = () => {
         fontSize="18px"
       >
         <a
-          href="./fw21_1204-Sonu_Kumar_Resume.pdf"
+          href="./Sonu_Kumar_Resume .pdf"
           target="_blank"
           rel="noreferrer"
           download
