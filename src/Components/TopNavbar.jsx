@@ -82,7 +82,7 @@ const TopNavbar = () => {
           </div>
           <div onClick={() => setCurrent("#resume")}>
 
-            <a href="./Sonu_Kumar_Resume .pdf" target="_blank" rel="noreferrer" download>
+            <a href="./Sonu_Kumar_Resume.pdf" target="_blank" rel="noreferrer" download>
               <h4
                 id="resumenav"
                 className={current === "#resume" ? "activemain" : null}
